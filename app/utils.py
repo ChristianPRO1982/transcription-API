@@ -12,6 +12,5 @@ def transcribe_file(file_path):
         return result['text'], None
     
     except Exception as e:
-        print(file)
         print(f"{log_prefix} Whisper error: {str(e)}")
         return None, f"{log_prefix} {str(e)}"
