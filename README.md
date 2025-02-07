@@ -26,7 +26,7 @@ This project is an API built with FastAPI that generates transcriptions using Op
 
 1. Start the FastAPI server:
     ```bash
-    uvicorn main:app --reload
+    uvicorn aap.main:app --reload
     ```
 2. Open your browser and go to `http://127.0.0.1:8000/docs` to access the Swagger UI.
 
