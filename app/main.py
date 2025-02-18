@@ -1,4 +1,4 @@
-from fastapi import FastAPI, UploadFile, File
+from fastapi import FastAPI
 from fastapi.responses import JSONResponse
 from datetime import datetime
 import time
@@ -12,15 +12,15 @@ async def transcribe(file_path: str):
     start_time = time.time()
     file_name = os.path.basename(file_path)
     
-    # /home/christianpro1982/Documents/Simplon/transcription-API/chris/podcast_620.mp3
-    text = transcribe_file(file_path)
+    text, error = transcribe_file(file_path)
 
     processing_time = time.time() - start_time
     response = {
         "file_name": file_name,
-        "date_time": datetime.utcnow().isoformat() + "Z",
+        "date_time": datetime.utcnow().isoformat(),
         "processing_time": f"{processing_time:.2f} seconds",
-        "transcription_text": text
+        "transcription_text": text,
+        "error": error
     }
     
     return JSONResponse(content=response)
