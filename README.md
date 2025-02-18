@@ -26,9 +26,18 @@ This project is an API built with FastAPI that generates transcriptions using Op
 
 1. Start the FastAPI server:
     ```bash
-    uvicorn aap.main:app --reload
+    uvicorn app.main:app --reload
     ```
 2. Open your browser and go to `http://127.0.0.1:8000/docs` to access the Swagger UI.
+
+## Pytest
+
+Given the size of the `Whisper package`, testing is done locally and not in CI on GitHub.
+
+For launch local `pytest`:
+```bash
+PYTHONPATH=$(pwd)/app pytest
+```
 
 ## API Endpoints
 
