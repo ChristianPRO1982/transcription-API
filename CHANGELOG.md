@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/ChristianPRO1982/transcription-API/compare/v1.0.0...v1.0.1) (2025-02-18)
+
+
+### Bug Fixes
+
+* add pytest for utils.py ([73af4f8](https://github.com/ChristianPRO1982/transcription-API/commit/73af4f8cbcf5d497f7da8897033547ad18286caf))
+
 # 1.0.0 (2025-02-18)
 
 
