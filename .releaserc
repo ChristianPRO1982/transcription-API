@@ -1,6 +1,6 @@
 {
   "branches": ["main", "dev"],
-  "repositoryUrl": "https://github.com/ChristianPRO1982/cicd",
+  "repositoryUrl": "https://github.com/ChristianPRO1982/transcription-API",
   "plugins": [
     "@semantic-release/commit-analyzer",
     "@semantic-release/release-notes-generator",
