@@ -1,3 +1,10 @@
+## [1.0.2](https://github.com/ChristianPRO1982/transcription-API/compare/v1.0.1...v1.0.2) (2025-02-19)
+
+
+### Bug Fixes
+
+* port 9000 for API ([de9285f](https://github.com/ChristianPRO1982/transcription-API/commit/de9285fcdb9cec833352a3a48daf488cb818df5a))
+
 ## [1.0.1](https://github.com/ChristianPRO1982/transcription-API/compare/v1.0.0...v1.0.1) (2025-02-18)
 
 
