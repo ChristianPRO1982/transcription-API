@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/ChristianPRO1982/transcription-API/compare/v1.1.0...v1.2.0) (2025-08-14)
+
+
+### Features
+
+* jwt ([4bfa7d0](https://github.com/ChristianPRO1982/transcription-API/commit/4bfa7d0aa3195686f09aff46d4d608e74c08d113))
+
 # [1.1.0](https://github.com/ChristianPRO1982/transcription-API/compare/v1.0.2...v1.1.0) (2025-08-14)
 
 
