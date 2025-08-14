@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/ChristianPRO1982/transcription-API/compare/v1.0.2...v1.1.0) (2025-08-14)
+
+
+### Features
+
+* new routes ([e17a1a9](https://github.com/ChristianPRO1982/transcription-API/commit/e17a1a930cefa642dacccae80404ec46e3b80116))
+
 ## [1.0.2](https://github.com/ChristianPRO1982/transcription-API/compare/v1.0.1...v1.0.2) (2025-02-19)
 
 
