@@ -5,3 +5,5 @@ pydantic
 uvicorn
 python-multipart
 pytest
+pyjwt
+python-dotenv

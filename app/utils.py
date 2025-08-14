@@ -1,6 +1,6 @@
 import whisper
 
-model = whisper.load_model("base")  # "base" / "tiny" / "small" / "medium" / "large"
+model = whisper.load_model("base", device="cpu")  # "base" / "tiny" / "small" / "medium" / "large"
 
 def transcribe_file(file_path):
     log_prefix = '[utils | transcribe_file]'

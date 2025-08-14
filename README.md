@@ -56,6 +56,29 @@ PYTHONPATH=$(pwd)/app pytest
     }
     ```
 
+### POST /login
+
+- **Description**: Authenticate a user and receive an access token.
+- **Request**:
+    - **Body**: JSON with `username` and `password`.
+- **Response**:
+    ```json
+    {
+        "access_token": "your_jwt_token",
+        "token_type": "bearer"
+    }
+    ```
+
+## .env Format
+
+Create a `.env` file in the project root with the following content:
+
+```
+SECRET_KEY=abcdefghijklmnopqrstuvwxyz0123456789
+DEMO_USERNAME=service
+DEMO_PASSWORD=change_me
+```
+
 ## License
 
 This project is licensed under the MIT License.
