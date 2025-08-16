@@ -26,7 +26,6 @@ from app.config import DEMO_USERNAME, DEMO_PASSWORD
 
 app = FastAPI()
 
-
 @app.post("/token", tags=["auth"])
 async def issue_token(
     username: str = Form(...),
